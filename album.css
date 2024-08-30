@@ -1,8 +1,10 @@
 .layout {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, 240px);
+  grid-template-rows: repeat(auto-fill, 240px);
+
+  justify-content: center;
 }
 
 .card {
@@ -15,6 +17,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .card-A {
